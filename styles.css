@@ -1,0 +1,142 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+}
+
+html{
+  box-sizing:border-box;
+}
+
+body{
+background-color:#1b1b32;
+margin:0;
+font-family:'Open Sans', Arial, sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 300px;
+  top: 0px;
+  left: 0px;
+  width: 310px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(208, 208, 213, 0.6);
+}
+
+.main-section .highlight{
+  font-family:'Courier New','Lucida Console',monospace;
+  color:#f5f6f7;
+}
+#navbar header{
+  font-size:25px;
+  color:#f2f2f5;
+  text-align:center;
+  margin-top:20px;
+  font-weight:bold;
+}
+
+#navbar ul {
+  height: 100%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar>ul>li{
+  list-style:none;
+  border-top:1px solid rgba(108, 108, 112, 0.6);
+  width:100%;
+  position:relative;
+  padding:20px 5px;
+}
+
+#navbar ul li:first-of-type{
+  margin-top:30px;
+}
+
+#navbar ul li:last-of-type{
+  border-bottom:1px solid rgba(108, 108, 112, 0.6);
+}
+
+#navbar .nav-link{
+  text-decoration:none;
+  color:#d0d0d5;
+  font-size:15px;
+  font-weight:normal;
+  cursor:pointer;
+}
+
+#main-doc{
+  position:absolute;
+  margin-left:340px;
+}
+
+#main-doc header{
+  font-size:30px;
+  color:#1b1b32;
+  font-weight:normal;
+  margin-top:30px;
+  display:block;
+  width:100%;
+  padding-left:10px;
+  border-radius:15px 0 0 15px;
+background-color:#d0d0d5;
+}
+
+#main-doc .main-section{
+  color:rgba(208, 208, 213,0.8);
+  font-size:1.3rem;
+  font-weight:thin;
+}
+
+#main-doc .main-section p{
+  margin-bottom:23px;
+}
+
+#main-doc .main-section p:last-of-type{
+  margin-bottom:70px;
+}
+
+#main-doc .main-section .br{
+  margin-bottom:23px;
+}
+
+.main-section #compile{
+  list-style:none;
+  margin-left:20px;
+  border-left:4px solid #f5f6f7;
+  color:#f5f6f7;
+  font-style:italic;
+  padding-left:10px;
+  font-weight:0;
+}
+
+.main-section code{
+  display:block;background-color:#dfdfe2;
+ color:#2a2a40;
+ width:80%;
+ margin-left:20px;
+  padding:5px 5px;
+  border-radius:5px;
+  margin-bottom:23px;
+}
+
+.main-section .link{
+  color:#f5f6f7;
+}
+
+.main-section li{
+  margin-bottom:23px;
+  margin-left:20px;
+}
+
+.main-section .sub-heading{
+  display:block;
+  margin-top:50px;
+  font-size:24px;
+  color:#f2f2f5;
+  font-weight:thin;
+}
